@@ -1,10 +1,10 @@
 {
- "version": "2.2.0",
+ "version": "2.3.0",
  "minShell": 1,
- "notes": "Web video: add YouTube, Vimeo or video links that stream from the internet. Lock button to stop accidental moves, Pin for single items. Undo/Redo with a History panel (Ctrl+Z, Ctrl+Y).",
+ "notes": "Documents with real formatting (headings, lists, checklists, tables, links) that export to Word, Markdown or text. Books with titled covers and spines, bookshelves with labelled sections, PDF books you can read in the world, and a Library panel to browse and search.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.2.0.zip",
-  "sha256": "4888edd73652553721e682106d73927c28b3dee490719fbded5661efd1d08978",
-  "size": 487714
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.3.0.zip",
+  "sha256": "0a03021b30e33d71f3c4bb2065d28147d22e1aadd72cff8df043a1b01f717cc7",
+  "size": 886434
  }
 }
