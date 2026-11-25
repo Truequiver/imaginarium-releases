@@ -2,6 +2,7 @@
 
 Imaginarium is a 3D whiteboard, paint studio and presentation space. Give each topic its own **city**, walk into its **worlds**, link them with **gateways**, and present with guided **tours**. Paint on boards, warp pictures, play video, load real 3D models, and keep a dated journal.
 
+<a id="download"></a>
 ## Download
 
 **[Download the latest version](https://github.com/Truequiver/imaginarium-releases/releases/latest)**. Under **Assets**, choose `Imaginarium-Windows.zip`.
@@ -14,12 +15,12 @@ Everything works offline, and your worlds save on your computer as you work.
 
 ## Updates
 
-Imaginarium updates itself. A few seconds after it starts (when you're online) it checks this page. If there's a new version, it downloads a small update and offers **Restart now**. You can also choose **File ▸ Check for updates**. Updates never touch your worlds.
+Imaginarium updates itself. A few seconds after it starts (when you're online) it checks the `updates` folder here. If there's a new version, it downloads a small update and offers **Restart now**. You can also choose **File ▸ Check for updates**. Updates never touch your worlds.
 
 ## What's in each release
 
 | File | What it's for |
 |---|---|
 | `Imaginarium-Windows.zip` | The full program. Download this the first time. |
-| `app-<version>.zip` | The small update the app downloads by itself. |
-| `latest.json` | Tells the app which version is newest. |
+| `updates/app-<version>.zip` | The small update the app downloads by itself (in this repo's `updates` folder). |
+| `updates/latest.json` | Tells the app which version is newest. |

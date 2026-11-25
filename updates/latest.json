@@ -1,0 +1,10 @@
+{
+ "version": "2.1.0",
+ "minShell": 1,
+ "notes": "First version with automatic updates.",
+ "app": {
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.1.0.zip",
+  "sha256": "953933a003e3a6bb0dc4cce4f52ccc173bce7c5b0105fc95b23f6459a42176ea",
+  "size": 483218
+ }
+}
