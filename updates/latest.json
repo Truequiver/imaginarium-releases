@@ -1,10 +1,10 @@
 {
- "version": "2.1.0",
+ "version": "2.2.0",
  "minShell": 1,
- "notes": "First version with automatic updates.",
+ "notes": "Web video: add YouTube, Vimeo or video links that stream from the internet. Lock button to stop accidental moves, Pin for single items. Undo/Redo with a History panel (Ctrl+Z, Ctrl+Y).",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.1.0.zip",
-  "sha256": "953933a003e3a6bb0dc4cce4f52ccc173bce7c5b0105fc95b23f6459a42176ea",
-  "size": 483218
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.2.0.zip",
+  "sha256": "4888edd73652553721e682106d73927c28b3dee490719fbded5661efd1d08978",
+  "size": 487714
  }
 }
