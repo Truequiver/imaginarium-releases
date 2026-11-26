@@ -1,10 +1,10 @@
 {
- "version": "2.5.2",
+ "version": "2.5.3",
  "minShell": 1,
- "notes": "Sliders now stick at handy values: turn and roll at 45\u00b0 (lighter stops every 15\u00b0), tilt at 0 and \u00b190\u00b0 for flat things, scale at \u00bd, 1, 2\u2026, opacity at quarters, skew at 0. Tick marks show where. Hold Shift to slide freely. Plus corner grips to reshape things and Cloud backup in the File menu.",
+ "notes": "Version number now shows next to the Imaginarium name (click it to see which copy you're using and where it saves). Includes corner grips, sticky sliders and Cloud backup.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.2.zip",
-  "sha256": "eba60ad315363403262240c0a675799a0768af4b43ee7860f21c7dae45a6e7bb",
-  "size": 901175
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.3.zip",
+  "sha256": "5b622a39aabb11b0a329089fe983a60e51076146101202d17a6b8b1e500055d1",
+  "size": 901581
  }
 }
