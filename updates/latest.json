@@ -1,10 +1,10 @@
 {
- "version": "2.3.0",
+ "version": "2.4.0",
  "minShell": 1,
- "notes": "Documents with real formatting (headings, lists, checklists, tables, links) that export to Word, Markdown or text. Books with titled covers and spines, bookshelves with labelled sections, PDF books you can read in the world, and a Library panel to browse and search.",
+ "notes": "Corkboards, whiteboards, chalkboards and walls: drag notes, pictures and media onto them and they pin in place. Connect anything with red string, arrows or lines, with labels. Any card can open a details page or another world. Map fix: clicks while a world is still loading are no longer ignored.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.3.0.zip",
-  "sha256": "0a03021b30e33d71f3c4bb2065d28147d22e1aadd72cff8df043a1b01f717cc7",
-  "size": 886434
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.4.0.zip",
+  "sha256": "cb728106fc7ff6e72d04131eecd22d526f260b18f6b9dbf5bd29a16659cda620",
+  "size": 894148
  }
 }
