@@ -1,10 +1,10 @@
 {
- "version": "2.4.0",
+ "version": "2.5.0",
  "minShell": 1,
- "notes": "Corkboards, whiteboards, chalkboards and walls: drag notes, pictures and media onto them and they pin in place. Connect anything with red string, arrows or lines, with labels. Any card can open a details page or another world. Map fix: clicks while a world is still loading are no longer ignored.",
+ "notes": "Move, rotate and scale handles right on the selected object (keys 1, 2, 3; Snap for grid and 15\u00b0 steps). Cloud backup in the File menu: pick a Proton Drive, Google Drive or other synced folder for automatic backups with 14 daily copies, or save to and open from Google Drive in the online version.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.4.0.zip",
-  "sha256": "cb728106fc7ff6e72d04131eecd22d526f260b18f6b9dbf5bd29a16659cda620",
-  "size": 894148
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.0.zip",
+  "sha256": "20b281a613d7300fe37154192094f8ca2232251d2e7a393167eafaf0eb020292",
+  "size": 902127
  }
 }
