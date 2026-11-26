@@ -1,10 +1,10 @@
 {
- "version": "2.5.3",
+ "version": "2.6.0",
  "minShell": 1,
- "notes": "Version number now shows next to the Imaginarium name (click it to see which copy you're using and where it saves). Includes corner grips, sticky sliders and Cloud backup.",
+ "notes": "Learning tools: learners (kept on this device only), Checkpoint quizzes, gateways and worlds that open after a checkpoint, \"what's next\" suggestions by interest and level, and progress on the city map. Also: Walk mode (click the floor to walk), touch controls, Light mode for slower computers, Private marking, Credits, Check links, and smaller photos (File > Shrink my photos).",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.3.zip",
-  "sha256": "5b622a39aabb11b0a329089fe983a60e51076146101202d17a6b8b1e500055d1",
-  "size": 901581
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.6.0.zip",
+  "sha256": "d4e9c2fa833f3855ee21621a121694036a7285c4450b0be4b3b1ff46931aa1a3",
+  "size": 912687
  }
 }
