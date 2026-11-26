@@ -1,10 +1,10 @@
 {
- "version": "2.5.0",
+ "version": "2.5.1",
  "minShell": 1,
- "notes": "Move, rotate and scale handles right on the selected object (keys 1, 2, 3; Snap for grid and 15\u00b0 steps). Cloud backup in the File menu: pick a Proton Drive, Google Drive or other synced folder for automatic backups with 14 daily copies, or save to and open from Google Drive in the online version.",
+ "notes": "Simpler reshaping: drag a selected thing's corner grips to stretch or squash it (Shift keeps its proportions). The arrows and rings are gone; drag the object itself to move it, and use the panel to turn it. Cloud backup is in the File menu.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.0.zip",
-  "sha256": "20b281a613d7300fe37154192094f8ca2232251d2e7a393167eafaf0eb020292",
-  "size": 902127
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.1.zip",
+  "sha256": "808e79d1fc205bc39481797e3139396c142202d124e91ab1ab9c9d8f93cd9971",
+  "size": 900585
  }
 }
