@@ -1,10 +1,10 @@
 {
- "version": "2.6.0",
+ "version": "2.7.0",
  "minShell": 1,
- "notes": "Learning tools: learners (kept on this device only), Checkpoint quizzes, gateways and worlds that open after a checkpoint, \"what's next\" suggestions by interest and level, and progress on the city map. Also: Walk mode (click the floor to walk), touch controls, Light mode for slower computers, Private marking, Credits, Check links, and smaller photos (File > Shrink my photos).",
+ "notes": "New: Record video (screen, voice, webcam bubble, clean view) and Record this tour. Flashcards with flip, type-it and match game that remember what each learner knows. Checkpoints now do fill-in-the-blank, short answer and matching. File > Print & worksheets makes worksheets, paper tests with answer keys and cut-out flashcards. Save file can now include just the things you pick. Recording and Save as PDF need the new Windows app (download once).",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.6.0.zip",
-  "sha256": "d4e9c2fa833f3855ee21621a121694036a7285c4450b0be4b3b1ff46931aa1a3",
-  "size": 912687
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.7.0.zip",
+  "sha256": "7cfb240e67c0cbdd79467bcbe82ff872375c0ee22550454a1819e16e49b705e8",
+  "size": 923187
  }
 }

@@ -5,6 +5,8 @@ Imaginarium is a 3D whiteboard, paint studio and presentation space. Give each t
 <a id="download"></a>
 ## Download
 
+> **Version 2.7 and later:** recording video and saving straight to PDF need the new Windows download (2.7). If you have an older copy, it still updates itself, but download the new `Imaginarium-Windows.zip` once to get recording.
+
 **[Download the latest version](https://github.com/Truequiver/imaginarium-releases/releases/latest)**. Under **Assets**, choose `Imaginarium-Windows.zip`.
 
 1. Unzip it anywhere you like (for example your Documents folder) and keep the folder together.
