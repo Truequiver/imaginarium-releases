@@ -1,10 +1,10 @@
 {
- "version": "2.5.1",
+ "version": "2.5.2",
  "minShell": 1,
- "notes": "Simpler reshaping: drag a selected thing's corner grips to stretch or squash it (Shift keeps its proportions). The arrows and rings are gone; drag the object itself to move it, and use the panel to turn it. Cloud backup is in the File menu.",
+ "notes": "Sliders now stick at handy values: turn and roll at 45\u00b0 (lighter stops every 15\u00b0), tilt at 0 and \u00b190\u00b0 for flat things, scale at \u00bd, 1, 2\u2026, opacity at quarters, skew at 0. Tick marks show where. Hold Shift to slide freely. Plus corner grips to reshape things and Cloud backup in the File menu.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.1.zip",
-  "sha256": "808e79d1fc205bc39481797e3139396c142202d124e91ab1ab9c9d8f93cd9971",
-  "size": 900585
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.5.2.zip",
+  "sha256": "eba60ad315363403262240c0a675799a0768af4b43ee7860f21c7dae45a6e7bb",
+  "size": 901175
  }
 }
