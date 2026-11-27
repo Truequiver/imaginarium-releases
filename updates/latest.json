@@ -1,10 +1,10 @@
 {
- "version": "2.8.0",
+ "version": "2.9.0",
  "minShell": 1,
- "notes": "Quests: learners type a goal and the places that help light up on the city map with a golden beacon. Memory health bars on checkpoints and flashcards fade along the forgetting curve and glow when it's time to revisit. Skipped or missed topics show up as make-up lessons in other worlds. Focus timer (View menu), wonder questions when you arrive in a world, and celebrations when you pass.",
+ "notes": "Worlds now look like what they teach: forests for life sciences, gardens for plants, food and soil, cities for technology (set \"Look\" on the city map). New Frontier item and Frontier districts: blank spots for open questions, with who's working on them, how to start helping, and live searches for the newest research. Frontiers show up on learners' quest paths.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.8.0.zip",
-  "sha256": "caa463238451f87eef14dd520d4d0cec54cab0c734ab98204c6b66fd397e8405",
-  "size": 928866
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.9.0.zip",
+  "sha256": "424ca1a2617c626f419bae87c46700588aeb5b465b9d8c6b71bc2045d2ad5397",
+  "size": 933117
  }
 }
