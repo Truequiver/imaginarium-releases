@@ -1,10 +1,10 @@
 {
- "version": "2.10.0",
+ "version": "2.10.1",
  "minShell": 1,
- "notes": "Pathways: goal-based curricula that pick only the essentials from every city and subject (or let you choose), and light the way with a golden trail between worlds on the city map and between things inside each world. Follow a pathway step by step with Next, dim everything that isn't essential, and see a learner's progress. Learners' goals suggest matching pathways.",
+ "notes": "Trail overview for pathways: numbered step markers over each world on the city map (click to jump), a Steps list of the whole pathway, a Map button that frames the whole trail, and an Above button for a bird's-eye view inside a world.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.10.0.zip",
-  "sha256": "d589ffcd8bfcf69c67d96d1a4fcadcda51c76df5e5417859fcc575cad1f25627",
-  "size": 938713
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.10.1.zip",
+  "sha256": "278efd2650d605ceeef779d2736581c99cf952f197c0d45c5c868dba93ef67c5",
+  "size": 940195
  }
 }
