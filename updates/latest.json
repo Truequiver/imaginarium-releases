@@ -1,10 +1,10 @@
 {
- "version": "2.10.2",
+ "version": "2.10.3",
  "minShell": 1,
- "notes": "Example text in fields is now general (no specific places or businesses).",
+ "notes": "Cleaner top bar: save status sits under the Imaginarium name and the world name chip is gone. Credit lines under items show just the source and a link. No real-world place labels in packs or menus.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.10.2.zip",
-  "sha256": "58424eb72ae883de46432f10dfb2a1f7b41e2b7c3475885be4c42fc4773dbabc",
-  "size": 940192
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.10.3.zip",
+  "sha256": "0ab23a7750a44f490c8035709925c00729b3f6103378a8559baab8e7f5fa0c9c",
+  "size": 940513
  }
 }
