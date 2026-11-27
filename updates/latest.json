@@ -1,10 +1,10 @@
 {
- "version": "2.9.0",
+ "version": "2.10.0",
  "minShell": 1,
- "notes": "Worlds now look like what they teach: forests for life sciences, gardens for plants, food and soil, cities for technology (set \"Look\" on the city map). New Frontier item and Frontier districts: blank spots for open questions, with who's working on them, how to start helping, and live searches for the newest research. Frontiers show up on learners' quest paths.",
+ "notes": "Pathways: goal-based curricula that pick only the essentials from every city and subject (or let you choose), and light the way with a golden trail between worlds on the city map and between things inside each world. Follow a pathway step by step with Next, dim everything that isn't essential, and see a learner's progress. Learners' goals suggest matching pathways.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.9.0.zip",
-  "sha256": "424ca1a2617c626f419bae87c46700588aeb5b465b9d8c6b71bc2045d2ad5397",
-  "size": 933117
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.10.0.zip",
+  "sha256": "d589ffcd8bfcf69c67d96d1a4fcadcda51c76df5e5417859fcc575cad1f25627",
+  "size": 938713
  }
 }
