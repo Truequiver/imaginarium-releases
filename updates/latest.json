@@ -1,10 +1,10 @@
 {
- "version": "2.7.0",
+ "version": "2.8.0",
  "minShell": 1,
- "notes": "New: Record video (screen, voice, webcam bubble, clean view) and Record this tour. Flashcards with flip, type-it and match game that remember what each learner knows. Checkpoints now do fill-in-the-blank, short answer and matching. File > Print & worksheets makes worksheets, paper tests with answer keys and cut-out flashcards. Save file can now include just the things you pick. Recording and Save as PDF need the new Windows app (download once).",
+ "notes": "Quests: learners type a goal and the places that help light up on the city map with a golden beacon. Memory health bars on checkpoints and flashcards fade along the forgetting curve and glow when it's time to revisit. Skipped or missed topics show up as make-up lessons in other worlds. Focus timer (View menu), wonder questions when you arrive in a world, and celebrations when you pass.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.7.0.zip",
-  "sha256": "7cfb240e67c0cbdd79467bcbe82ff872375c0ee22550454a1819e16e49b705e8",
-  "size": 923187
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.8.0.zip",
+  "sha256": "caa463238451f87eef14dd520d4d0cec54cab0c734ab98204c6b66fd397e8405",
+  "size": 928866
  }
 }
