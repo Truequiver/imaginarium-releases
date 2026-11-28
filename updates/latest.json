@@ -1,10 +1,10 @@
 {
- "version": "2.10.3",
+ "version": "2.11.0",
  "minShell": 1,
- "notes": "Cleaner top bar: save status sits under the Imaginarium name and the world name chip is gone. Credit lines under items show just the source and a link. No real-world place labels in packs or menus.",
+ "notes": "Handwritten pages (File menu): add photos of paper notes; in the Claude version, Claude reads the handwriting, splits it into ideas and suggests the world and board for each, which you review before they're pinned in place. Page photos can go on an Idea inbox board.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.10.3.zip",
-  "sha256": "0ab23a7750a44f490c8035709925c00729b3f6103378a8559baab8e7f5fa0c9c",
-  "size": 940513
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.11.0.zip",
+  "sha256": "682ab4cfe74cc2b38adb06dfbf707d8d008d0af5bc69f92ffd4ec138ddf39d6e",
+  "size": 943804
  }
 }
