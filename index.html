@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imaginarium · a city for everything you're learning</title>
+<meta name="description" content="A 3D whiteboard where every topic becomes a city you can walk through: worlds of notes, pictures, models and videos, joined by gateways, with tours, Checkpoints and flashcards. Works offline.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Imaginarium · a city for everything you're learning">
+<meta property="og:description" content="Turn any topic into a 3D city you can walk through, present and learn from. Works offline.">
+<meta property="og:url" content="https://truequiver.github.io/imaginarium-releases/">
+<meta property="og:image" content="https://truequiver.github.io/imaginarium-releases/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16181d;--mute:#5d6068;--line:#e6e1d6;--paper:#fbf9f4;--acc:#ff5a3c;--soft:#f3efe6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 Inter,system-ui,sans-serif}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.logo{font:600 22px Fraunces,Georgia,serif;text-decoration:none}
+.logo span{color:var(--acc)}
+nav .links{display:flex;gap:22px;align-items:center;font-weight:500;font-size:15px}
+nav .links a{text-decoration:none}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;border:1.5px solid var(--ink);text-decoration:none;font-weight:600;font-size:16px;transition:transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.sm{padding:8px 14px;font-size:14px}
+.hero{padding:36px 0 24px;text-align:center}
+.kicker{font:600 13px Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
+h1{font:600 clamp(40px,7vw,76px)/1.02 Fraunces,Georgia,serif;margin:14px auto 18px;max-width:880px;letter-spacing:-.01em}
+.lede{font-size:clamp(18px,2.2vw,21px);color:var(--mute);max-width:700px;margin:0 auto}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:28px 0 8px}
+.note{font-size:13px;color:var(--mute)}
+.shot{margin:36px auto 0;border-radius:18px;overflow:hidden;box-shadow:0 30px 70px rgba(22,24,29,.18),0 0 0 1px rgba(22,24,29,.06)}
+section{padding:72px 0 8px}
+h2{font:600 clamp(30px,4vw,44px)/1.1 Fraunces,Georgia,serif;margin:8px 0 14px}
+.sub{color:var(--mute);max-width:640px;margin:0}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
+.step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.step b{display:block;font:600 21px Fraunces,Georgia,serif;margin-bottom:4px}
+.step .n{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--acc);color:#fff;font-weight:600;font-size:14px;margin-bottom:10px}
+.step p{margin:0;color:var(--mute);font-size:15px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.split.rev .txt{order:2}
+.frame{border-radius:16px;overflow:hidden;box-shadow:0 18px 44px rgba(22,24,29,.14),0 0 0 1px rgba(22,24,29,.06);background:#fff}
+ul.ticks{list-style:none;padding:0;margin:18px 0 0}
+ul.ticks li{padding:7px 0 7px 30px;position:relative;border-bottom:1px solid var(--line)}
+ul.ticks li:last-child{border-bottom:0}
+ul.ticks li::before{content:"";position:absolute;left:4px;top:15px;width:12px;height:12px;border-radius:4px;background:var(--acc);transform:rotate(45deg)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chips span{background:var(--soft);border-radius:999px;padding:6px 13px;font-size:14px;font-weight:500}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+.pair figure{margin:0}
+.pair figcaption{font-size:14px;color:var(--mute);margin-top:8px}
+.band{background:var(--ink);color:#fff;border-radius:24px;padding:48px;margin-top:72px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;align-items:center}
+.band h2{color:#fff}
+.band .sub{color:#c9cbd1}
+.band ul.ticks li{border-color:#2d3038}
+.pack{display:grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-top:28px}
+.pack .body{padding:30px}
+.pack h3{font:600 28px Fraunces,Georgia,serif;margin:4px 0 10px}
+.pack .cover img{width:100%;height:100%;object-fit:cover}.pack .cover{display:block;min-height:260px}
+.qr{display:flex;gap:24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin-top:72px}
+.qr img{width:150px;height:150px;image-rendering:pixelated;border-radius:8px}
+.qr h3{font:600 24px Fraunces,Georgia,serif;margin:0 0 6px}
+footer{padding:56px 0 64px;color:var(--mute);font-size:14px}
+footer .wrap{border-top:1px solid var(--line);padding-top:24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media (max-width:860px){
+  .steps{grid-template-columns:1fr 1fr}.split,.pack,.band,.pair{grid-template-columns:1fr}.split.rev .txt{order:0}
+  .band{padding:30px}.qr{flex-direction:column;text-align:center}nav .links .hide-sm{display:none}section{padding-top:56px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="logo" href="./">Imaginarium<span>.</span></a>
+  <div class="links">
+    <a class="hide-sm" href="#how">How it works</a>
+    <a class="hide-sm" href="#learn">For learning</a>
+    <a href="packs/">Packs</a>
+    <a class="btn sm pri" href="https://github.com/Truequiver/imaginarium-releases/releases/latest">Download</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="kicker">A 3D whiteboard for thinking and learning</div>
+  <h1>A city for everything you're learning.</h1>
+  <p class="lede">Imaginarium turns each topic into a place you can walk through: worlds full of notes, pictures, models and videos, joined by gateways, with tours to present them and Checkpoints to learn from them.</p>
+  <div class="cta">
+    <a class="btn pri" href="packs/learning-how-to-learn/">Walk a sample city</a>
+    <a class="btn" href="https://github.com/Truequiver/imaginarium-releases/releases/latest">Download for Windows</a>
+  </div>
+  <div class="note">The sample opens right in your browser, on a computer or a phone. Nothing to install.</div>
+  <div class="shot"><img src="assets/palace.jpg" alt="Inside Imaginarium: a memory palace world with ten objects along a path, each with a note on top" width="1400" height="875"></div>
+</header>
+
+<section id="how">
+  <div class="kicker">How it's organised</div>
+  <h2>Topics become cities. Ideas become places.</h2>
+  <p class="sub">Your memory is built for places. Imaginarium uses that: you remember where something was, so you remember what it was.</p>
+  <div class="steps">
+    <div class="step"><div class="n">1</div><b>Cities</b><p>One city per topic: Biology, a business plan, your home projects.</p></div>
+    <div class="step"><div class="n">2</div><b>Worlds</b><p>Each city has worlds, shown as districts on the city map. Double-click one to step inside.</p></div>
+    <div class="step"><div class="n">3</div><b>Gateways</b><p>Arches that lead from one world to another and draw roads between them on the map.</p></div>
+    <div class="step"><div class="n">4</div><b>Tours</b><p>Save camera stops with captions, then Present: the arrow keys fly you from stop to stop.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="split">
+    <div class="txt">
+      <div class="kicker">Fill a world</div>
+      <h2>Put anything where it makes sense.</h2>
+      <p class="sub">Paste or drag files straight in. Move, turn, tilt and reshape everything in 3D.</p>
+      <div class="chips">
+        <span>Boards to paint on</span><span>Notes</span><span>Journal entries</span><span>Documents</span><span>Pictures</span><span>Video and audio</span><span>Web videos</span><span>Links</span><span>3D models (.glb .obj .stl .ply)</span><span>Molecules (.pdb)</span><span>Trees, hills, water, rocks</span><span>Corkboards</span><span>Wall panels</span><span>Gateways</span>
+      </div>
+    </div>
+    <div class="frame"><img src="assets/frames.jpg" alt="A world about thinking in analogies, with diagrams, notes and a corkboard" width="1400" height="875" loading="lazy"></div>
+  </div>
+</section>
+
+<section id="learn">
+  <div class="kicker">Made for learning</div>
+  <h2>Not just to look at. To learn from.</h2>
+  <p class="sub">Every world can carry its own Checkpoints and Flashcards, and Imaginarium keeps track of each learner.</p>
+  <div class="pair">
+    <figure class="frame"><img src="assets/checkpoint.jpg" alt="A Checkpoint question inside a world" width="870" height="720" loading="lazy"></figure>
+    <figure class="frame"><img src="assets/flashcards.jpg" alt="A set of flashcards with flip, type-it and match-game modes" width="870" height="720" loading="lazy"></figure>
+  </div>
+  <div class="split" style="margin-top:34px">
+    <ul class="ticks">
+      <li><b>Checkpoints</b>: multiple choice, fill in the blank, short answer and matching, with a "why" after each answer.</li>
+      <li><b>Flashcards</b>: flip them, type the answer, or play the match game.</li>
+      <li><b>Learners</b>: each person's scores and progress are saved, and worlds can open in order as Checkpoints are passed.</li>
+      <li><b>Quests and paths</b> to set goals and follow a route through a subject.</li>
+    </ul>
+    <ul class="ticks">
+      <li><b>Print and worksheets</b>: paper tests, answer keys and cut-out flashcards from any world.</li>
+      <li><b>Focus timer</b> for short, focused bursts with breaks.</li>
+      <li><b>Record</b> your screen, voice and webcam, or record a tour as a video.</li>
+      <li><b>Credits on everything</b>: who made it, where it came from, and its license.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="band">
+  <div>
+    <div class="kicker">Works where the internet doesn't</div>
+    <h2>Offline first. One file to share.</h2>
+    <p class="sub">The Windows app works with no connection and saves as you go. Built for classrooms and places where the internet is patchy.</p>
+    <ul class="ticks">
+      <li>Save one world, a whole city or everything as a single <b>.imaginarium.zip</b>.</li>
+      <li>Inside it are plain folders and files you can open, edit and zip back up.</li>
+      <li><b>Export web page</b>: a view-only page anyone can open in a browser, like the sample on this site.</li>
+      <li>Small automatic updates that never touch your worlds.</li>
+    </ul>
+  </div>
+  <div class="frame"><img src="assets/map.jpg" alt="The city map, with each world as a coloured district joined by roads" width="610" height="420" loading="lazy"></div>
+</div>
+
+<section id="packs">
+  <div class="kicker">Packs</div>
+  <h2>Start with a ready-made city.</h2>
+  <p class="sub">Packs are whole cities you can try in your browser, then add to your own Imaginarium with File ▸ Open file.</p>
+  <div class="pack">
+    <a class="cover" href="packs/learning-how-to-learn/"><img src="packs/learning-how-to-learn/cover.jpg" alt="A world from the Learning how to learn pack" loading="lazy"></a>
+    <div class="body">
+      <div class="note">11 worlds · 55 Checkpoint questions · 66 flashcards</div>
+      <h3>Learning how to learn</h3>
+      <p class="sub">How memory works and how to study, remember and test well: emotion and experience, retrieval practice, spacing, a walk-through memory palace, thinking in analogies, test day and more.</p>
+      <div class="cta" style="justify-content:flex-start">
+        <a class="btn pri" href="packs/learning-how-to-learn/">Try it in your browser</a>
+        <a class="btn" href="packs/">All packs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="qr">
+  <img src="qr/home.png" alt="QR code for this page" width="150" height="150">
+  <div>
+    <h3>Open this on another phone</h3>
+    <p class="sub">Scan to share this page with whoever you're talking to.</p>
+  </div>
+</div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>Imaginarium · made by Truequiver · for Windows, with view-only pages for any browser.</div>
+    <div>Windows may say "Windows protected your PC" the first time, because the app isn't signed by a big publisher: choose More info ▸ Run anyway.</div>
+  </div>
+</footer>
+</body>
+</html>
