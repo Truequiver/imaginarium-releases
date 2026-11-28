@@ -1,10 +1,10 @@
 {
- "version": "2.11.0",
+ "version": "2.12.0",
  "minShell": 1,
- "notes": "Handwritten pages (File menu): add photos of paper notes; in the Claude version, Claude reads the handwriting, splits it into ideas and suggests the world and board for each, which you review before they're pinned in place. Page photos can go on an Idea inbox board.",
+ "notes": "Two ways to lay out the city map: Trail (each subject is one path that snakes upward from easiest to hardest, with level markers) or By interest (topic cities with easy and hard mixed). Switch with the buttons on the city map.",
  "app": {
-  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.11.0.zip",
-  "sha256": "682ab4cfe74cc2b38adb06dfbf707d8d008d0af5bc69f92ffd4ec138ddf39d6e",
-  "size": 943804
+  "url": "https://raw.githubusercontent.com/Truequiver/imaginarium-releases/main/updates/app-2.12.0.zip",
+  "sha256": "f98810779fee30c164dc0b48f5461a61cd678932768b209eab43453f0a8bf570",
+  "size": 945172
  }
 }
